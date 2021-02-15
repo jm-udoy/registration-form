@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+	<h1>Registration Form</h1>
+
+	<form>
+		
+		<fieldset>
+			<legend><b>Basic Information:</b></legend>
+			<br>
+			<label>Enter your name:</label>
+			<input type="Text" name="name" id="Name">
+			<br>
+
+			<label>Gender:</label>
+			<input type="Radio" name="gender" id="male">
+			<label for="male">Male</label>
+			<input type="Radio" name="gender" id="female">
+			<label for="fmale">Female</label>
+			<br>
+
+			<label>Date of birth:</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="date">
+			<br>
+
+			<label for="religion">Religion:</label>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select id="religion" name="religion">
+				<option value="Islam">
+					Islam
+				</option>
+				<option value="Hindu">
+					Hinduism
+				</option>
+				<option value="christianity">
+					Christianity
+				</option>
+				<option value="unaffiliated">
+					Unaffiliated
+				</option>
+				<option value="buddhism">
+					Buddhism
+				</option>
+				<option value="folkReligions">
+					Folk Religions
+				</option>
+				<option value="others">
+					Others
+				</option>
+			</select>
+			<br>
+
+			<label>Father's Name:</label>
+			&nbsp;&nbsp;
+			<input type="Text" name="fatherName" id="fatherName">
+			<br>
+
+			<label>Mother's Name:</label>
+			&nbsp;
+			<input type="Text" name="motherName" id="motherName">
+			<br>
+
+		</fieldset>
+		<br>
+
+
+		<fieldset>
+			<legend><b>Contact Information:</b></legend>
+			<br>
+			<label>Present Address:</label>
+			&emsp;&emsp;&nbsp;
+			<input type="Text" name="padd" id="padd" style="height:35px;">
+			<br>
+
+			<label>Permanent Address:</label>
+			&emsp;
+			<input type="Text" name="permanentAdd" id="permanentAdd" style="height:35px;">
+			<br>
+
+			<label>Phone:</label>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+			<input type="Phone" name="phoneNumber" id="phoneNumber">
+			<br>
+
+			<label>Email:</label>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+			<input type="Email" name="email" id="email">
+			<br>
+
+			<label>Personal Website Link:</label>
+			<input type="url" name="webUrl" id="webUrl">
+			<br>
+
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend><b>Academic Information:</b></legend>
+			<br>
+			<label>SSC Year:</label>
+			&emsp;&emsp;
+			<input type="number" name="sscYear" id="sscYear">
+			<br>
+
+			<label>SSC Institution:</label>
+			<input type="Text" name="sscInstitution" id="sscInstitution">
+			<br>
+
+			<label>HSC Year:</label>
+			&emsp;&emsp;
+			<input type="number" name="sscYear" id="sscYear">
+			<br>
+
+			<label>HSC Institution:</label>
+			<input type="Text" name="hscInstitution" id="hscInstitution">
+			<br>
+
+		</fieldset>
+
+		<br>
+		<button type="button">Submit</button>
+
+		
+	</form>
+
+
+</body>
+</html>
